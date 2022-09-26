@@ -26,6 +26,22 @@ public class Main {
         System.out.println("На каждого ученика рассчитано " + papperForall + " листов бумаги!");
 
 
+        byte perfomanceMinute = 8;
+        byte minutes = 20;
+        short day = 24 * 60;
+        int threeDays = day * 3;
+        int oneMonth = day * 30;
+        int bottlesMinutes = perfomanceMinute * 20;
+        int bottlesDay = day * perfomanceMinute;
+        int bottlesThreeDays = day * perfomanceMinute;
+        int bottlesMonth = oneMonth * perfomanceMinute;
+        System.out.println("За 20 минут работы машина произвела " + bottlesMinutes + " бутылок");
+        System.out.println("За день работы машина произвела " + bottlesDay + " бутылок");
+        System.out.println("За три дня работы машина произвела " + bottlesThreeDays + " бутылок");
+        System.out.println("За месяц работы машина произвела " + bottlesMonth + " бутылок");
+
+
+
 
 
     }
