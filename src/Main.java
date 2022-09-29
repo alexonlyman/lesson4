@@ -26,6 +26,37 @@ public class Main {
         System.out.println("На каждого ученика рассчитано " + papperForall + " листов бумаги!");
 
 
+        byte perfomanceMinute = 8;
+        byte minutes = 20;
+        short day = 24 * 60;
+        int threeDays = day * 3;
+        int oneMonth = day * 30;
+        int bottlesMinutes = perfomanceMinute * 20;
+        int bottlesDay = day * perfomanceMinute;
+        int bottlesThreeDays = day * perfomanceMinute;
+        int bottlesMonth = oneMonth * perfomanceMinute;
+        System.out.println("За 20 минут работы машина произвела " + bottlesMinutes + " бутылок");
+        System.out.println("За день работы машина произвела " + bottlesDay + " бутылок");
+        System.out.println("За три дня работы машина произвела " + bottlesThreeDays + " бутылок");
+        System.out.println("За месяц работы машина произвела " + bottlesMonth + " бутылок");
+
+
+        byte whiteDye = 2;
+        byte brownDye = 4;
+        int dyeClass = whiteDye + brownDye;
+        int totalDye = 120;
+        int tolalClasses = totalDye / dyeClass;
+        int totalWhite = tolalClasses * whiteDye;
+        int totalBrown = tolalClasses * brownDye;
+        System.out.println("В школе где " + tolalClasses + " классов, нужно " + totalWhite + " белой и " + totalBrown +" краски ");
+
+
+        int mashaSalary = 67760;
+        int denisSalary = 83690;
+        int kristinaSalary = 76230;
+        System.out.printf("Новая зарплата маши %s\n", mashaSalary *1.1);
+        System.out.printf("Новая зарплата дениса %s\n", denisSalary * 1.1);
+        System.out.printf("Новая зарплата кристины %s\n", kristinaSalary *1.1);
 
 
     }
