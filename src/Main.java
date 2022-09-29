@@ -41,8 +41,14 @@ public class Main {
         System.out.println("За месяц работы машина произвела " + bottlesMonth + " бутылок");
 
 
-
-
+        byte whiteDye = 2;
+        byte brownDye = 4;
+        int dyeClass = whiteDye + brownDye;
+        int totalDye = 120;
+        int tolalClasses = totalDye / dyeClass;
+        int totalWhite = tolalClasses * whiteDye;
+        int totalBrown = tolalClasses * brownDye;
+        System.out.println("В школе где " + tolalClasses + " классов, нужно " + totalWhite + " белой и " + totalBrown +" краски ");
 
     }
 }
