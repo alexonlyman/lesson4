@@ -50,5 +50,14 @@ public class Main {
         int totalBrown = tolalClasses * brownDye;
         System.out.println("В школе где " + tolalClasses + " классов, нужно " + totalWhite + " белой и " + totalBrown +" краски ");
 
+
+        int mashaSalary = 67760;
+        int denisSalary = 83690;
+        int kristinaSalary = 76230;
+        System.out.printf("Новая зарплата маши %s\n", mashaSalary *1.1);
+        System.out.printf("Новая зарплата дениса %s\n", denisSalary * 1.1);
+        System.out.printf("Новая зарплата кристины %s\n", kristinaSalary *1.1);
+
+
     }
 }
